@@ -91,6 +91,16 @@ export function Footer() {
       </div>
       <div className="border-t border-border/60 py-5 text-center text-xs text-muted-foreground">
         © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
+        <br />
+        NOTE: This is{" "}
+        <a
+          href="https://bitsecurextech.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-primary underline underline-offset-4 hover:text-primary/80"
+        >
+          BitSecureX Tech Portfolio
+        </a>
       </div>
     </footer>
   );
