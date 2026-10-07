@@ -89,17 +89,18 @@ export function Footer() {
           </ul>
         </div>
       </div>
+
       <div className="border-t border-border/60 py-5 text-center text-xs text-muted-foreground">
         © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
         <br />
-        NOTE: This is{" "}
+        NOTE: THIS IS BITSECUREX DEMO FOR DEALERS —{" "}
         <a
           href="https://bitsecurextech.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-medium text-primary underline underline-offset-4 hover:text-primary/80"
+          className="font-semibold text-red-600 underline underline-offset-4 hover:text-red-700"
         >
-          BitSecureX Tech Portfolio
+          VIEW MY PORTFOLIO
         </a>
       </div>
     </footer>
